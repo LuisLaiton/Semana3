@@ -1,0 +1,75 @@
+main {
+    background-color: #c6c5c5;
+}
+
+form {
+    background-color: #333;
+    margin: 10px 350px;
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+fieldset {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+legend {
+    font-size: large;
+    text-align: left;
+}
+
+label {
+    font-size: large;
+    display: inline-block;
+    margin: 8px;
+}
+
+input {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.boton {
+    background-color: #F39C12;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.boton:hover {
+    background-color: #fb6900;
+}
+
+h1 {
+    color: #F39C12;
+    text-align: center;
+    padding: 30px;
+}
+
+nav {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+nav > a {
+    color:#094CB0;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+nav > a:hover {
+    color: #F39C12;
+    border: 1px solid #F39C12;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+footer {
+    padding: 20px 15%;
+    background-color: #c6c5c5;
+}
