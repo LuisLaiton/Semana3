@@ -13,6 +13,11 @@ h1 {
 nav {
     text-align: center;
     padding-bottom: 10px;
+    padding-top: 10px;
+
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
 }
 
 nav > a {
@@ -26,6 +31,7 @@ nav > a:hover {
     border: 1px solid #F39C12;
     border-radius: 5px;
     padding: 5px;
+    box-shadow: -5px 5px 5px gray;
 }
 
 footer {
@@ -118,6 +124,7 @@ img:hover {
     width: 200px;
     height: 100%;
     border: 5px dotted #094CB0;
+    filter: grayscale(100%);
 }
 
 .icono-lista {
